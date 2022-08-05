@@ -19,7 +19,7 @@ contract FBB is ERC721URIStorage, ERC721Enumerable {
     Counters.Counter private _tokenIds;
     address fbtTokenAddress;
     IERC20 token;
-    string private baseURI = "http://192.168.0.100:8088/v1/api/birdbox/nft";
+    string private baseURI = "http://38.242.146.124:8088/v1/api/birdbox/nft";
 
     constructor(address fbtToken) ERC721("FBIRD BOX", "FBB") {
         fbtTokenAddress = fbtToken;

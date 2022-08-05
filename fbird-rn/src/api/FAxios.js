@@ -4,8 +4,8 @@ import FInfo from 'react-native-sensitive-info';
 
 const appConfigs = {
     dev: {
-        baseURL: 'http://localhost:8001/v1/api',
-        socketURL: 'ws://localhost:8001',
+        baseURL: 'http://localhost:8088/v1/api',
+        socketURL: 'ws://localhost:8088',
         evn: 'staging',
         fbbAddress: '0xe49E6C26C2cA992A4d686Ea77CEa8FF342151094'
     },
